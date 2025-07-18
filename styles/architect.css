@@ -132,36 +132,6 @@ main > section{
   font-size: 1rem;
 }
 
-/* responsive media query */
-
-@media screen and (max-width: 576px) {
-  .navbar, .nav-links{
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .teams{
-
-  }
-  .team-img-container{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .team-features{
-    margin-left: 20px;
-  }
-}
-
-/* midumn size device */
-@media screen and (min-width: 576px) and (max-width: 992px){
-  .teams{
-    flex-direction: column;
-  }
-  .our-features{
-    margin-left: 50px auto;
-  }
-}
-
 /* facts styles */
 .facts{
   padding: 50px;
@@ -185,6 +155,8 @@ main > section{
 .fact-title{
   font-weight: 700;
   font-size: 2.8rem;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 .fact-description{
@@ -203,3 +175,82 @@ main > section{
   margin-top: 10px;
 
 }
+/* our sponsor */
+
+.our-sponsors{
+
+}
+.sponsor-info{
+  max-width: 540px;
+  margin: 50px auto;
+  text-align: center;
+}
+.sponsor-title{
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.sponsor-description{
+  font-weight: 400;
+  font-size: 1rem;
+  color: #727272;
+}
+
+.sponsor-company{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.sponsor-company img{
+  filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .teams{
+
+  }
+  .team-img-container, .facts-container, .sponsor-company{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .facts-container{
+    gap: 24px;
+  }
+  .sponsor-company{
+    justify-items: center;
+    gap: 50px;
+  }
+  .team-features{
+    margin-left: 20px;
+  }
+}
+
+/* midumn size device */
+@media screen and (min-width: 576px) and (max-width: 992px){
+  .teams{
+    flex-direction: column;
+  }
+  .our-features{
+    margin-left: 50px auto;
+  }
+  .sponsor-company, .facts-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-items: center;
+  }
+}
+
