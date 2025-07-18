@@ -246,14 +246,15 @@ main > section{
   filter: grayscale(100%);
 }
 
-/* .footer-title{
+.footer-title{
   font-weight: 400;
   font-size: 1.25rem;
   border-radius: 8px;
   background: rgb(255, 244, 231);
   text-align: center;
   margin: 100px 0;
-} */
+  padding: 20px;
+} 
 
 
 
