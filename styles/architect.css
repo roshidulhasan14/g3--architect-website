@@ -114,6 +114,7 @@ main > section{
 }
 .feature-title{
  font-weight: 700;
+ font-size: 2.8rem;
 }
 
 .quick-list{
@@ -131,6 +132,31 @@ main > section{
   font-weight: 400;
   font-size: 1rem;
 }
+/* feature section */
+
+.features{
+  gap: 120px;
+}
+
+#feature-section-title{
+  font-weight: 700;
+  border-left: 5px solid #FF900E;
+  padding: 20px;
+}
+
+.feature-card {
+  padding: 30px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06); 
+  margin-bottom: 20px;    
+}
+.feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 
 /* facts styles */
 .facts{
