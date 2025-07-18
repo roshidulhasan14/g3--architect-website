@@ -14,6 +14,10 @@
 .display-flex{
   display: flex;
 }
+/* dark-01 */
+.text-black{
+  color: #131313;
+}
 
 /* dark-02*/
 .text-gray{
@@ -156,4 +160,46 @@ main > section{
   .our-features{
     margin-left: 50px auto;
   }
+}
+
+/* facts styles */
+.facts{
+  padding: 50px;
+}
+
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
+}
+.fact{
+  border: 1px solid #FF900E;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.fact-title{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.fact-description{
+  font-size: 1rem;
+  font-weight: 400; 
+}
+.fact-number{
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.fact-name{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+
 }
