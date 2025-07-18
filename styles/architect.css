@@ -10,3 +10,86 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.display-flex{
+  display: flex;
+}
+
+/* dark-02*/
+.text-gray{
+  color: #424242;
+}
+/* dark-03*/
+
+.text-gray-light{
+  color: #727272;
+}
+
+.bg-light{
+  background: rgba(255, 144, 14, 0.1);;
+}
+
+.btn-primary{
+  background-color: #FF900E;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  border-radius: 8px;
+  padding: 20px 25px;
+}
+
+/* navbar styles */
+
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.nav-links{
+
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar, .banner{
+  max-width: 1240px;
+  margin: 0 auto;
+}
+/* banner style*/
+.banner{}
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner-description{
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+.banner-image{
+  width: 100%;
+}
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
+}
+  
