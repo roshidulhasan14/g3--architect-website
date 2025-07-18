@@ -58,6 +58,7 @@ main > section{
 .brand{
   font-weight: 700;
   font-size: 3rem;
+  margin-left: 20px;
 }
 
 .nav-links{
